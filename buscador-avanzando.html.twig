@@ -1,0 +1,52 @@
+{% extends '@nucleus/partials/particle.html.twig' %}
+
+{% set modalsearch_s1 %}
+<a href="#g-buscador" data-rel="lightcase">
+   <i class="{{ particle.icon|e }}"></i>
+</a>
+	<div id="g-buscador" class="{{ particle.estilo|default("estilo1")|e }}">		
+			
+
+{% if gantry.platform.getName() == 'joomla' %}
+				{{ gantry.platform.filter("{loadposition posicion_buscar, none}")|html|raw }}
+
+
+			{% endif %}
+
+			{% if gantry.platform.getName() == 'wordpress' %}
+				{{ gantry.platform.call('get_search_form') }}
+			{% endif %}
+
+	</div>
+{% endset %}
+
+{% set modalsearch_s2 %}
+
+	<div id="g-buscador" class="{{ particle.estilo|default("estilo2")|e }}">	
+	<div class="contenido-modal-buscar">	
+	<i class="{{ particle.icon|e }}"></i>	
+			
+			{% if gantry.platform.getName() == 'joomla' %}
+				{{ gantry.platform.filter("{loadposition posicion_buscar, none}")|html|raw }}
+
+
+			{% endif %}
+
+			{% if gantry.platform.getName() == 'wordpress' %}
+				{{ gantry.platform.call('get_search_form') }}
+			{% endif %}
+
+	</div>
+	</div>
+
+
+{% endset %}
+
+{% block particle %}
+	
+
+		{% if particle.estilo == "estilo1" %}{{ modalsearch_s1 }}{% endif %}
+		{% if particle.estilo == "estilo2" %}{{ modalsearch_s2 }}{% endif %}
+
+
+{% endblock %}

@@ -1,0 +1,31 @@
+name: Buscador Avanzando
+description: Permite cargar una buscador con diferentes estilos.
+type: particle
+
+form:
+  fields:
+    enabled:
+      type: input.checkbox
+      label: Habilitado
+      description: Globally enable spacer.
+      default: true
+
+    _note:
+      type: separator.note
+      class: alert alert-info
+      content: 'Es necesario cargar el Átomo "Lightcase" dentro del Diseño. Esta partícula carga los módulos ubicados en la posición:"posicion_buscar". Si usa Joomla, coloque su módulo buscar en esa posición.'
+
+    .icon:
+          type: input.icon
+          label: Icono
+          default: fa fa-search
+
+    estilo:
+      type: select.select
+      label: Estilo
+      description: Seleccione el estilo para la caja de búsqueda.
+      placeholder: 'Seleccionar...'
+      default: Estilo 1
+      options:
+        estilo1: Estilo 1
+        estilo2: Estilo 2

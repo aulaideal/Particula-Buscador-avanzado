@@ -1,0 +1,132 @@
+#g-buscador.estilo1{
+display:none;
+text-align: left;
+}
+#g-buscador .element-invisible {
+border: 0 none;
+height: 1px;
+margin: 0;
+overflow: hidden;
+padding: 0;
+position: absolute;
+width: 1px;
+}
+#g-buscador i {
+opacity: 1 !important;
+}
+/*-------------------------
+ESTILO 1
+------------------------*/
+// Joomla
+#g-buscador.estilo1 .search form input {
+margin: 0;
+margin-bottom: 0;
+border: none;
+box-shadow: none !important;
+font-size: 2rem;
+width: 100%;
+color: $base-text-color;
+}
+// Wordpress
+#g-buscador.estilo1 .search-form{
+margin: 0;
+}
+#g-buscador.estilo1 .search-form 	.search-field {
+border: none;
+margin: 0;
+box-shadow: none !important;
+font-size: 2rem;
+width: 100%;
+color: $base-text-color;
+}
+#g-buscador.estilo1 .search-form label {
+margin-bottom: 0;
+}
+#g-buscador.estilo1 .search-form label span,
+#g-buscador.estilo1 .search-form .search-submit {
+display: none;
+}
+/*------------------------------------------------
+ESTILO 2
+------------------------------------------------*/
+
+#g-buscador.estilo2 {
+text-align: right;
+}
+#g-buscador.estilo2 .contenido-modal-buscar {
+display: inline-block;
+border-radius: 2rem;
+border: none;
+box-shadow: 0 0 3px rgba(0, 0, 0, 0.45) inset;
+background: #fff;
+position: relative;
+
+}
+#g-buscador.estilo2 .contenido-modal-buscar i.fa{
+color: $base-text-color;
+position: absolute;
+ left: 0.7rem;
+ top: 0.7em;
+}
+
+// Joomla
+#g-buscador.estilo2 .search{
+display: inline-block;
+}
+#g-buscador.estilo2 .search form input{
+outline: none;
+border: none;
+margin: 0;
+box-shadow: none;
+font-family: inherit;
+font-size: 100%;
+color: $base-text-color;
+padding: .6rem .6rem .6rem 2rem;
+width: 8rem;
+transition: all .5s;
+position: relative;
+background: transparent;
+
+}
+#g-buscador.estilo2 .search form input:focus{
+width: 12rem;
+border-color: #66CC75;
+box-shadow: 0 0 5px rgba(109,207,246,.5);
+}
+#g-buscador.estilo2 .search form button{
+display: none;
+}
+
+// wordpress
+#g-buscador.estilo2 .search-form{
+display: inline-block;
+margin: 0;
+}
+
+#g-buscador.estilo2 .search-form .search-field {
+outline: none;
+border: none;
+margin: 0;
+box-shadow: none;
+font-family: inherit;
+font-size: 100%;
+color: $base-text-color;
+padding: .6rem .6rem .6rem 2rem;
+width: 8rem;
+transition: all .5s;
+position: relative;
+background: transparent;
+}
+
+#g-buscador.estilo2 .search-form .search-field:focus{
+width: 12rem;
+border-color: #66CC75;
+box-shadow: 0 0 5px rgba(109,207,246,.5);
+}
+#g-buscador.estilo2 .search-form label {
+margin-bottom: 0;
+}
+#g-buscador.estilo2 .search-form label span,
+#g-buscador.estilo2 .search-form .search-submit {
+display: none;
+}
