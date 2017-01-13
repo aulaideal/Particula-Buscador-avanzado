@@ -8,7 +8,7 @@ El modo de instalación es muy sencillo:
 
 + Crear la carpeta "particles" dentro de tu carpeta "custom" en tu plantilla Gantry. Ejem: g5_hydrogen/custom/particles
 + Cópie los archivos buscador-avanzando.html.twig y buscador-avanzando.yaml
-+ Cópie el archivo _buscador-avanzando.scss dentro de tu carpeta "scss". Ejem: g5_hydrogen/custom/scss
++ Cópie el archivo ubicado en "scss/_buscador-avanzando.scss" dentro de tu carpeta "scss". Ejem: g5_hydrogen/custom/scss
 + Llame al archivo desde tu custom.scss colocando la siguiente linea al comienzo: 
   /*Estilos partícula Contact Items */
   
