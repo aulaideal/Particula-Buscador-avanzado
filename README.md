@@ -1,8 +1,10 @@
 # Partícula "Buscador-avanzado"
 Partícula para Gantry 5 que te permite incluir una buscador dentro de tu sitio. Pudiendo modificar el ícono de busqueda, definir diferentes estilos y comportamientos avanzados.
 
+
 Instalación
 -----------
+NOTA: Estar particula requiere el átomo nativo de Gantry: "Lightcase", necesario para generar el efecto Lightbox (Ventana modal).
 No hemos incluido un instalador ya que deseamos que esta partícula pueda ser usada tanto en Joomla como en Wordpress. 
 El modo de instalación es muy sencillo:
 
@@ -11,7 +13,7 @@ El modo de instalación es muy sencillo:
 + Cópie el archivo ubicado en "scss/_buscador-avanzando.scss" dentro de tu carpeta "scss". Ejem: g5_hydrogen/custom/scss
 + Llame al archivo desde tu custom.scss colocando la siguiente linea al comienzo: 
 
-  /* Estilos partícula Contact Items */
+  /* Estilos partícula Buscador avanzado */
   
   @import "buscador-avanzando";
 
