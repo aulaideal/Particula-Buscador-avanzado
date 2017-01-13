@@ -11,6 +11,7 @@ El modo de instalación es muy sencillo:
 + Cópie el archivo _buscador-avanzando.scss dentro de tu carpeta "scss". Ejem: g5_hydrogen/custom/scss
 + Llame al archivo desde tu custom.scss colocando la siguiente linea al comienzo: 
   /*Estilos partícula Contact Items */
+  
   @import "buscador-avanzando";
 
 
