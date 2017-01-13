@@ -10,7 +10,8 @@ El modo de instalación es muy sencillo:
 + Cópie los archivos buscador-avanzando.html.twig y buscador-avanzando.yaml
 + Cópie el archivo ubicado en "scss/_buscador-avanzando.scss" dentro de tu carpeta "scss". Ejem: g5_hydrogen/custom/scss
 + Llame al archivo desde tu custom.scss colocando la siguiente linea al comienzo: 
-  /*Estilos partícula Contact Items */
+
+  /*Estilos partícula Contact Items*/
   
   @import "buscador-avanzando";
 
