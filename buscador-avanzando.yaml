@@ -2,6 +2,11 @@ name: Buscador Avanzando
 description: Permite cargar una buscador con diferentes estilos.
 type: particle
 
+configuration:
+  caching:
+    type: static
+    
+
 form:
   fields:
     enabled:
