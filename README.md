@@ -1,5 +1,6 @@
 # Partícula "Buscador-avanzado"
 Partícula para Gantry 5 que te permite incluir una buscador dentro de tu sitio. Pudiendo modificar el ícono de busqueda, definir diferentes estilos y comportamientos avanzados.
+![particula-buscador-avanzado](https://user-images.githubusercontent.com/9434043/26899065-9465a1c4-4b93-11e7-9387-7b5d7d56f14c.png)
 
 
 Instalación
