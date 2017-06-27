@@ -13,19 +13,36 @@ form:
     _note:
       type: separator.note
       class: alert alert-info
-      content: 'Es necesario cargar el Átomo "Lightcase" dentro del Diseño. Esta partícula carga los módulos ubicados en la posición:"posicion_buscar". Si usa Joomla, coloque su módulo buscar en esa posición.'
+      content: 'Es necesario cargar el Átomo "Lightcase" si elige el "Estilo 1". Esta partícula carga los módulos ubicados en la posición:"posicion_buscar". Si usa Joomla, coloque su módulo buscar en esa posición.'
 
-    .icon:
-          type: input.icon
-          label: Icono
-          default: fa fa-search
+
 
     estilo:
       type: select.select
       label: Estilo
       description: Seleccione el estilo para la caja de búsqueda.
       placeholder: 'Seleccionar...'
-      default: Estilo 1
+      default: estilo 1
       options:
         estilo1: Estilo 1
         estilo2: Estilo 2
+
+    info1:
+      type: separator.note
+      class: alert alert-info
+      content: Configuraciones del icono
+
+    icon:
+      type: input.icon
+      label: Icono
+      default: fa fa-search
+    
+    coloricono:
+      type: input.colorpicker
+      label: Color de Ícono      
+
+    tamanoicono:
+      type: input.text
+      label: Tamaño
+      description: Tamano del botón buscar.
+      placeholder: '1rem'
